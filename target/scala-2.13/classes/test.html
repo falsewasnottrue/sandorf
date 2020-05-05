@@ -1,0 +1,34 @@
+<html>
+
+<body>
+	<h4 id="num">1</h4>
+	<br/>
+	<img id="img" src="http://www.l4a.org/4bibeln/eg/png/Evangelisches%20Gesangbuch%201.png">
+	
+	<script>
+		var i = 1;
+		var next = function() {
+			i = i+1;
+			var url = "http://www.l4a.org/4bibeln/eg/png/Evangelisches%20Gesangbuch%20" + i + ".png";
+			document.getElementById("img").src = url;
+			document.getElementById("num").innerText = i;
+		}
+		var prev = function() {
+			i = i-1;
+			var url = "http://www.l4a.org/4bibeln/eg/png/Evangelisches%20Gesangbuch%20" + i + ".png";
+			document.getElementById("img").src = url;
+			document.getElementById("num").innerText = i;
+		}
+
+		var checkKey = function(e) {
+			e = e || window.event;
+			if (e.keyCode == '37') {
+       			prev();
+		    } else if (e.keyCode == '39') {
+		       	next();
+		    }
+		}
+		document.onkeydown = checkKey;
+	</script>
+</body>
+</html>
