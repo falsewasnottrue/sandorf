@@ -15,8 +15,8 @@ HTML
   - rot
 
 CSS
-- in Datei auslagern
++ in Datei auslagern
 + Kreis
-- Farben als Klasse
++ Farben als Klasse
 
 Javascript
