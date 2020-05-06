@@ -8,20 +8,28 @@ HTML
     + Kreis
     + Startkreis
     + Gewinnkreis
-- IDs pro Farbe
++ IDs pro Farbe
   + schwarz
   + gelb
   + grün
   + rot
-- Männchen zeichnen
-
++ Männchen (piece) am Start zeichnen
+  
 CSS
 + in Datei auslagern
 + Kreis
 + Farben als Klasse
++ piece als Klasse
 
 Javascript
-- Variablen für Position
++ in Datei auslagern
 - Männchen bewegen
+  + aktuelle Position finden
+  - Zug addieren
+  - an neue Position stellen
+  - eventuell werfen
 - Männchen rauswerfen
 - Replay
+  - Liste aller Züge
+  - Sortieren
+  - abspielen

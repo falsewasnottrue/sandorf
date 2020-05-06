@@ -1,6 +1,9 @@
 td {
 	width: 100px;
 	height: 100px;
+	color: #fff;
+	text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+	font-size: 70;
 }
 .field {
 	background-color: white;
@@ -31,4 +34,17 @@ td {
 }
 .black {
 	background-color: black;
+}
+
+.piece-green:after {
+	content: "G";
+}
+.piece-yellow:after {
+	content: "Y";
+}
+.piece-red:after {
+	content: "R";
+}
+.piece-black:after {
+	content: "B";
 }
