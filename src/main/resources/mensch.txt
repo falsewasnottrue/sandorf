@@ -10,9 +10,10 @@ HTML
     + Gewinnkreis
 - IDs pro Farbe
   + schwarz
-  - gelb
+  + gelb
   - grün
   - rot
+- Männchen zeichnen
 
 CSS
 + in Datei auslagern
@@ -20,3 +21,7 @@ CSS
 + Farben als Klasse
 
 Javascript
+- Variablen für Position
+- Männchen bewegen
+- Männchen rauswerfen
+- Replay
