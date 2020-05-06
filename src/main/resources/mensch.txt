@@ -9,7 +9,14 @@ HTML
     + Startkreis
     + Gewinnkreis
 - IDs pro Farbe
+  + schwarz
+  - gelb
+  - grün
+  - rot
 
 CSS
+- in Datei auslagern
 + Kreis
+- Farben als Klasse
+
 Javascript
