@@ -11,8 +11,8 @@ HTML
 - IDs pro Farbe
   + schwarz
   + gelb
-  - grün
-  - rot
+  + grün
+  + rot
 - Männchen zeichnen
 
 CSS
