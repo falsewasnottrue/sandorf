@@ -1,0 +1,15 @@
+
+https://de.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht
+
+HTML
++ Gerüst
+  + Plan zeichnen
+    + Tabelle 11 * 11
+    + Kreis
+    + Startkreis
+    + Gewinnkreis
+- IDs pro Farbe
+
+CSS
++ Kreis
+Javascript
