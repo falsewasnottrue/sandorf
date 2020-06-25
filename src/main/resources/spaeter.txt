@@ -1,0 +1,6 @@
+
++ Gerüst
++ Alle Sekunde eine Zeile hinzufügen
+  + Aktuelle Zeit mit Sekunden
++ Alle Sekunde das Bild laden
+  + URL

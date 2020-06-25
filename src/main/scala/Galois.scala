@@ -1,6 +1,6 @@
 object Galois extends App {
 
-  val primes = 2 #:: Stream.from(3,2).filter(isPrime)
+  val primes = 2 #:: LazyList.from(3,2).filter(isPrime)
 
   def isPrime(n: Int): Boolean =
     primes.takeWhile(p => p*p <= n).forall(n % _ != 0)
